@@ -1,4 +1,99 @@
-navbar{
-  position:relative;
-  background-color: #b6945c;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* HEADER */
+.topbar {
+  background: #111;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* SECTIONS */
+.section {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.muted {
+  color: #777;
+  font-size: 14px;
+}
+
+/* MENU LIST */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.menu-list strong {
+  color: #c62828;
+}
+
+.menu-list .highlight {
+  background: #fff0f0;
+  border-color: #ffcaca;
+}
+
+/* CARDS */
+.card {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background: #111;
+  color: #fff;
 }
