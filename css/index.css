@@ -97,3 +97,9 @@ footer {
   background: #111;
   color: #fff;
 }
+
+.tamimg {
+  width: 100% !important;
+  height: auto;
+  border-radius: 8px;
+}
